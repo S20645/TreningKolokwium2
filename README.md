@@ -1,0 +1,1 @@
+# TreningKolokwium2
