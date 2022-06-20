@@ -5986,11 +5986,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikol\\Desktop\\test2\\test2.csproj",
+      "projectUniqueName": "C:\\Users\\mikol\\Desktop\\TreningKolokwium2\\test2\\test2.csproj",
       "projectName": "test2",
-      "projectPath": "C:\\Users\\mikol\\Desktop\\test2\\test2.csproj",
+      "projectPath": "C:\\Users\\mikol\\Desktop\\TreningKolokwium2\\test2\\test2.csproj",
       "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikol\\Desktop\\test2\\obj\\",
+      "outputPath": "C:\\Users\\mikol\\Desktop\\TreningKolokwium2\\test2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual studio 2019\\SDK\\NuGetPackages"

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using test2.Models;
+using test2.Services;
 
 namespace test2
 {
@@ -28,6 +29,8 @@ namespace test2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IMusicService, MusicService>();
+            services.AddControllers();
             services.AddDbContext<MusicDbContext>(opt =>
             {
                 opt.UseSqlServer("Data Source=localhost,1433;Initial Catalog=test2;User ID=SA;Password=yourStrong(!)Password");

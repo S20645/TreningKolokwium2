@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yXaXLSMh6dIjhIYTiqP1/bAf3JkdKfSH2ZhwGVGBFnz64wtvIjnf7kXA/EBWbV1e6E6GLsoD8/55IlyMef1rCA==",
+  "dgSpecHash": "2hoFYtVw1FTvHbLCAD9YMfCfvWSlNpAMHC56IU4VjFridnnievJ3bzFKtG0hJI65YuLh1pLHg/Ix86P+AVp0WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikol\\Desktop\\test2\\test2.csproj",
+  "projectFilePath": "C:\\Users\\mikol\\Desktop\\TreningKolokwium2\\test2\\test2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikol\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mikol\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,0 +1,39 @@
+https://github.com/ceswer/APBD/tree/main/Task08
+
+https://github.com/S20645/TreningKolokwium2
+
+https://github.com/S20645/Test2
+
+https://github.com/PJATK-Database-department/cw-8-ko-S20645
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+mkdir kolokwium2
+cd kolokwium2
+dotnet new webapi --framework net5.0
+dotnet new sln
+dotnet sln add .\kolokwium2.csproj
+start .\kolokwium2.csproj
+dotnet add package Microsoft.EntityFrameworkCore -v 5.0.16
+dotnet add package Microsoft.EntityFrameworkCore.Tools -v 5.0.16
+dotnet add package Microsoft.EntityFrameworkCore.Design -v 5.0.16
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 5.0.16
+
+
+1. Models --> klasy dla tabel
+	joiny: 
+		wiele: public virtual klasa nazwa {get; set;}
+		jeden: public virtual ICollection<klasa> nazwa {get; set;}
+2. MedDbContext : DbContext
+3. Startup.cs --> ConfigureServices --> 
+
+		services.AddScoped<IMusicService, MusicService>();
+            services.AddControllers();
+		services.AddDbContext<nazwa>(opt =>
+	{
+		opt.UseSqlServer("Data Source=localhost,1433;Initial Catalog=NAZWA;User ID=SA;Password=yourStrong(!)Password");
+	});
+4. Developer PowerShell:
+	dotnet ef migrations add "text" 
+5. I<NAZWA>Service + <NAZWA>Service  || IService interface || Service class
+6. Controllers
